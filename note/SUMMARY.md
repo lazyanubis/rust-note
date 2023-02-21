@@ -1,6 +1,8 @@
 # Rust Note
 
-* [Initial page](../README.md)
+* [前言](../README.md)
+
+* [准备](./prepare.md)
 
 ## Test Group
 * [test page 1](test1/page1.md)
