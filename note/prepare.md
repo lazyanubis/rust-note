@@ -52,3 +52,21 @@ Hello, world!
 ---
 
 一旦 run 了之后，会生成一个 target 目录和 Cargo.lock 文件。谁知道是干什么的呢 😠
+
+## 5. 查看 main.rs 文件
+用 vscode 打开 hello 目录。选择 main.rs 文件查看内容。
+```rs
+fn main() {
+    println!("Hello, world!");
+}
+```
+
+如果有行号
+```rs
+1 fn main() {
+2     println!("Hello, world!");
+3 }
+```
+
+后面第一次编写代码的地方就是第 2 行，所在的位置了，其他的东西暂时还是先不要关心了。
+只要知道在第 2 行那个 println!... 的位置写代码，也就是告诉计算机做啥子，就行了。
