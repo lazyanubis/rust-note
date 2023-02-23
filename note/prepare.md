@@ -1,12 +1,12 @@
 # 准备
 
-1. 安装
+## 1. 安装 Rust
 
 偷懒不想介绍怎么安装 Rust。请参看别人的教程，顺便也推荐一下别人的书，😂。
 
 [Rust语言圣经 #安装 Rust](https://course.rs/first-try/installation.html)
 
-2. 开发工具
+## 2. 开发工具
 
 强烈推荐 [Visual Studio Code](https://code.visualstudio.com/)。
 
@@ -15,3 +15,40 @@
 ---
 
 > 多摸索，多思考，就会知道如何使用。基本的一些操作，网上真的教程很多的。
+
+## 3. 梦开始的地方
+
+在命令行界面，选择好代码放置的目录。（需要会基本的 shell 操作）
+执行如下命令:
+```sh
+cargo new hello
+```
+将会得到一个初始化的项目。能够看到会生成一个名为 hello 的目录。
+
+主要有 2 个文件: Cargo.toml 和 src 下的 main.rs
+```
+hello
+    ├── Cargo.toml
+    └── src
+        └── main.rs
+```
+目前能说的，代码可以在文件 main.rs 里面编写。
+> 貌似还不理解什么是 *代码*。😂
+
+## 4. 第一次运行执行
+
+进入 hello 目录，执行命令:
+```sh
+cargo run
+```
+可以看到界面会输出
+```
+Hello, world!
+```
+表明已经运行成功，并且看到代码输出的结果了。这个 "Hello, world!"，就是那个 main.rs 里面的代码做的事情了。
+
+我们当前的任务就是在这个 main.rs 里面写一些代码，让计算机做我们让它做的事情。比如：计算一下 1+1 等于几 😂
+
+---
+
+一旦 run 了之后，会生成一个 target 目录和 Cargo.lock 文件。谁知道是干什么的呢 😠
