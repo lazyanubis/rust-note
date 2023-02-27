@@ -6,7 +6,5 @@
 
 * [TODO](./todo.md)
 
-## 阶段 1
-
 ## 1. 基础类型
-* [整数](stage1/basic_type/integer.md)
+* [1.1 整数](basic_type/integer.md)
