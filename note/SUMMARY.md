@@ -6,5 +6,7 @@
 
 * [TODO](./todo.md)
 
-## Test Group
-* [test page 1](test1/page1.md)
+## 阶段 1
+
+## 1. 基础类型
+* [整数](stage1/basic_type/integer.md)
