@@ -6,6 +6,8 @@
 
 ## 1 基础类型
 * [1.1 整数](basic_type/integer.md)
+* [1.2 浮点数](basic_type/float.md)
+* [1.3 布尔类型](basic_type/bool.md)
 
 
 
